@@ -78,6 +78,10 @@ public class V3 extends JFrame implements ActionListener {
 				scrollPane.setViewportView(txtS);
 			}
 		}
+		
+		JButton btnNewButton_1 = new JButton("Eliminar");
+		btnNewButton_1.setBounds(49, 77, 116, 38);
+		contentPane.add(btnNewButton_1);
 	}
 
 	public void actionPerformed(ActionEvent e) {
